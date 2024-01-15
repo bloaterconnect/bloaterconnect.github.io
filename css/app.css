@@ -270,10 +270,7 @@
   text-decoration: none;
 }
 
-.contractAddress {
-  font-size:0.8em;
-  color: #744e45;
-}
+
 
 .allowance {
   font-size: 0.8em;
@@ -572,6 +569,15 @@
     margin: 0px;
   }
 
+  .contractAddress {
+    font-size:0.7em;
+    color: #744e45;
+  }
+
+  .fancyButton{
+    font-size: 18px;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 420px) {
