@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url('./assets/images/background.png'); */
+  color: #481206;
+  margin: 0;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+
+  &:after {
+    content: "";
+    background-size: cover;
+    background-image: url('./assets/images/background.png');
+    inset: 0px;
+    position: fixed;
+    z-index: -1;
+  }
+}
+
+a {
+  color: #744e45;
+}
